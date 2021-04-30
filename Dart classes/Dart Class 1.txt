@@ -1,0 +1,207 @@
+// Class 1 Dart
+// Muhammad Ahsan
+// Kashpak.co@gmail.com
+// Muhammad Ali Mughal
+// Jawan Tech PK
+
+
+
+
+void main() {
+  
+var Kashpak ="Hey, heaven pirates are  missing you. ";    //Defining variable
+  
+  
+  
+   
+                              //NUMBERS Types 
+  
+  int number1 = 10 ;
+  double number2 = 22.5;
+  num number3 =10;
+  num number4 =10;
+    
+                                               //Result of number variable
+        print(number1);    
+        print(number2);   
+        print(number3);   
+        print(number4 );   
+  
+  
+  
+  
+                               //String variable 
+  
+ String par= "This is test message";
+                                              //Result of String variable
+  print(par);  
+  
+  
+                              //Boolen variable   
+  bool check= number1>number2;  
+  
+                                               //Result of Boolen variable
+   print(check);  
+  
+  
+  
+  
+  
+  
+  
+                            // Arithmetic operation 
+  
+  
+  
+                                                                //Addition
+ num output= number1+number2;
+  print(  "Answer of Addition is        ${output}"   );
+                                                                //subtraction
+  num output2= number2-number1;
+  print ( "Answer of Subtraction is     ${output2}");
+  
+                                                                //Multiplication
+  num output3= number1*number2;
+  print(  "Answer of Multiplication is  ${output3}");
+ 
+                                                                //Division
+  num output4= number2/number1;
+  print(  "Answer of Division is        ${output4}");
+  
+  // for remainder(modulo) we use %  eg "number2%number1"
+  
+  
+  
+                          //Increment and decrement 
+  
+  
+  
+  int aa = 10;
+  int bb =++aa;                                         //pre Increment
+  print(bb);
+  
+  
+  
+  int a = 10;
+  int b =a++;                                           //post Increment
+  print(b);
+  
+  
+  //Exercise
+  
+  int x = 5;
+  int y = x++ + --x - x + x++ - x-- + ++x;
+  
+        //5   +   5 - 5 + 5   - 6    +  6
+  
+                                                         // Result:
+  print(y);
+  
+  
+for(int i=0;i<6;i++)
+  {
+    print(Kashpak);
+  }
+    
+  
+  
+                      //Equality and Relational  Operation
+  
+   int age=19;
+  bool check1 = age>20;
+  print(check1);
+  
+  
+  bool check2 =age<20;
+  print (check2);
+  
+  
+  bool check3=age>=18;
+  print(check3);
+  
+  
+    bool check4=age<=18;
+  print(check4);
+  
+  
+    bool check5=age==19;
+  print(check5);
+  
+  
+    bool check6=age!=18;
+  print(check6);
+  
+  
+  
+                                //Logical  Operation
+  
+  
+  
+  
+  //   bool check3=age>=18;
+//   print(check3);
+  
+   int age111=19, age222=23;
+  bool check11 = age111>18&&age222>20;                            //and operator
+  print(check11);
+  
+  
+  bool check22 =age111>20||age222==21;                           //or operator
+  print (check22);
+  
+  
+    bool check44=!(age111<=19);                               // not operator
+  print(check44);
+  
+  
+  
+  
+  
+  
+                             // if else condition
+  
+  
+  
+  var a5=12;
+  var b5=12;
+  if  (a5>b5)
+  {
+    print("A is grater than B");
+      
+  }
+  
+  
+  
+ else if  (b5>a5)
+  {
+    
+    
+    print("B is grater than A");
+  }
+  else if (a5==b5)
+  {
+    
+       print("A is Equal to B");
+      
+    
+  }
+  else
+  { 
+  
+     print("Error");
+   }
+  
+  var var1="Ahsan", var2="Ahsan";
+    
+    if (var1==var2)
+    {
+      
+       print("1st  variable Equal to 2nd variable");
+      
+    }
+    else
+  { 
+  
+     print("Error");
+   }
+}
